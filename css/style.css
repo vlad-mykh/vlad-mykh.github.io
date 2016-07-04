@@ -1,41 +1,39 @@
-* {
+*{
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* used in order to make borders size be included into the boxes*/
 }
 
-body {
-    height: calc(100vh);
-}
-
-.header {
-    height: 150px;
-    width: calc(100vw);
-    background-color: #adff2f;
-}
-
-.sidebar {
-    float: left;
-    width: 20%;
-    height: 400px;
-    background-color: red;
-    border: 10px black dotted;
-}
-
-.content {
-    float: left;
-    width: 80%;
-    height: 400px;
-    background-color: #fff8dc;
-}
-
-.footer {
-    clear: both;
-    width: 100%;
-    height: 117px;
-    background-color: brown;
-    padding: 30px;
+#content {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 0;
+    background-color: #eee;
+    min-height: 500px;
     text-align: center;
+}
+
+#header {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
 }
 
 /* Wrapper */
@@ -85,8 +83,7 @@ body {
 .icon-button:hover .icon-facebook,
 .icon-button:hover .icon-google-plus,
 .icon-button:hover .icon-instagram,
-.icon-button:hover .icon-vk,
-.icon-button:hover .icon-battery {
+.icon-button:hover .icon-vk {
     color: white;
 }
 
@@ -123,10 +120,6 @@ body {
     background-color: darkviolet;
 }
 
-.battery span {
-    background-color: yellow;
-}
-
 .vk span {
     background-color: darkblue;
 }
@@ -143,10 +136,6 @@ body {
     color: #4099ff;
 }
 
-.icon-button .icon-battery {
-    color: yellow;
-}
-
 .icon-button .icon-instagram {
     color: darkviolet;
 }
@@ -155,9 +144,11 @@ body {
     color: darkblue;
 }
 
-form {
-    top:50%;
-    left:50%;
-    position: relative;
-    width: 10ch;
+.footer {
+    clear: both;
+    width: 100%;
+    height: 150px;
+    background-color: brown;
+    padding: 15px;
+    text-align: center;
 }
