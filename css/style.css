@@ -73,8 +73,7 @@ body {
 .icon-button:hover .icon-facebook,
 .icon-button:hover .icon-google-plus,
 .icon-button:hover .icon-instagram,
-.icon-button:hover .icon-vk,
-.icon-button:hover .icon-battery {
+.icon-button:hover .icon-vk {
     color: white;
 }
 
@@ -112,10 +111,6 @@ body {
     background-color: darkblue;
 }
 
-.battery span {
-    background-color: hotpink;
-}
-
 .icon-button .icon-google-plus {
     color: #db5a3c;
 }
@@ -134,10 +129,6 @@ body {
 
 .icon-button .icon-vk {
     color: darkblue;
-}
-
-.icon-button .icon-battery {
-    color: hotpink;
 }
 
 .carousel-inner > .item > img,
@@ -185,21 +176,21 @@ body {
         height: 140px;
     }
     .icon-button {
-        border-radius: 7.2rem;
-        font-size: 4.0rem;
-        height: 7.2rem;
-        line-height: 7.2rem;
-        width: 7.2rem;
+        border-radius: 10.8rem;
+        font-size: 6.0rem;
+        height: 10.8rem;
+        line-height: 10.8rem;
+        width: 10.8rem;
     }
     .icon-button:hover span {
-        width: 7.2rem;
-        height: 7.2rem;
-        margin: -3.6rem;
+        width: 10.8rem;
+        height: 10.8rem;
+        margin: -5.4rem;
     }
     .icon-button i {
-        height: 7.2rem;
-        line-height: 7.2rem;
-        width: 7.2rem;
+        height: 10.8rem;
+        line-height: 10.8rem;
+        width: 10.8rem;
     }
     .content {
         padding-bottom: 150px;
