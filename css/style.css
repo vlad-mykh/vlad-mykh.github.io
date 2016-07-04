@@ -142,7 +142,7 @@ body {
         width: 50%;
     }
     .footer {
-        height: 80px;
+        height: 90px;
     }
     .icon-button {
         border-radius: 3.6rem;
@@ -173,7 +173,7 @@ body {
         width: 100%;
     }
     .footer {
-        height: 140px;
+        height: 150px;
     }
     .icon-button {
         border-radius: 10.8rem;
@@ -193,6 +193,6 @@ body {
         width: 10.8rem;
     }
     .content {
-        padding-bottom: 140px;
+        padding-bottom: 150px;
     }
 }
