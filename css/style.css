@@ -222,7 +222,37 @@ body {
     }
 }
 
-@media (min-width: 0px) and (max-width: 499px) {
+@media (min-width: 371px) and (max-width: 499px) {
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+        width: 100%;
+    }
+    .footer {
+        height: 100px;
+    }
+    .icon-button {
+        border-radius: 5.4rem;
+        font-size: 3.0rem;
+        height: 5.4rem;
+        line-height: 5.4rem;
+        width: 5.4rem;
+    }
+    .icon-button:hover span {
+        width: 5.4rem;
+        height: 5.4rem;
+        margin: -2.7rem;
+    }
+    .icon-button i {
+        height: 5.4rem;
+        line-height: 5.4rem;
+        width: 5.4rem;
+    }
+    .content {
+        padding-bottom: 100px;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 370px) {
     .carousel-inner > .item > img,
     .carousel-inner > .item > a > img {
         width: 100%;
@@ -245,7 +275,7 @@ body {
     .icon-button i {
         height: 5.4rem;
         line-height: 5.4rem;
-        width: 4.5rem;
+        width: 5.4rem;
     }
     .content {
         padding-bottom: 160px;
