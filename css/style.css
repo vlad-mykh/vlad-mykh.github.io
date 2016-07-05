@@ -231,21 +231,21 @@ body {
         height: 160px;
     }
     .icon-button {
-        border-radius: 7.2rem;
-        font-size: 4.0rem;
-        height: 7.2rem;
-        line-height: 7.2rem;
-        width: 7.2rem;
+        border-radius: 5.4rem;
+        font-size: 3.0rem;
+        height: 5.4rem;
+        line-height: 5.4rem;
+        width: 5.4rem;
     }
     .icon-button:hover span {
-        width: 7.2rem;
-        height: 7.2rem;
-        margin: -3.6rem;
+        width: 5.4rem;
+        height: 5.4rem;
+        margin: -2.7rem;
     }
     .icon-button i {
-        height: 7.2rem;
-        line-height: 7.2rem;
-        width: 7.2rem;
+        height: 5.4rem;
+        line-height: 5.4rem;
+        width: 4.5rem;
     }
     .content {
         padding-bottom: 160px;
