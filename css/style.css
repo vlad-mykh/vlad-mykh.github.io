@@ -192,37 +192,7 @@ body {
     }
 }
 
-@media (min-width: 500px) and (max-width: 640px) {
-    .carousel-inner > .item > img,
-    .carousel-inner > .item > a > img {
-        width: 100%;
-    }
-    .footer {
-        height: 130px;
-    }
-    .icon-button {
-        border-radius: 7.2rem;
-        font-size: 4.0rem;
-        height: 7.2rem;
-        line-height: 7.2rem;
-        width: 7.2rem;
-    }
-    .icon-button:hover span {
-        width: 7.2rem;
-        height: 7.2rem;
-        margin: -3.6rem;
-    }
-    .icon-button i {
-        height: 7.2rem;
-        line-height: 7.2rem;
-        width: 7.2rem;
-    }
-    .content {
-        padding-bottom: 130px;
-    }
-}
-
-@media (min-width: 371px) and (max-width: 499px) {
+@media (min-width: 381px) and (max-width: 640px) {
     .carousel-inner > .item > img,
     .carousel-inner > .item > a > img {
         width: 100%;
@@ -252,7 +222,7 @@ body {
     }
 }
 
-@media (min-width: 0px) and (max-width: 370px) {
+@media (min-width: 0px) and (max-width: 380px) {
     .carousel-inner > .item > img,
     .carousel-inner > .item > a > img {
         width: 100%;
