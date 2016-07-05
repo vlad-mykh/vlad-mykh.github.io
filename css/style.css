@@ -192,7 +192,7 @@ body {
     }
 }
 
-@media (min-width: 374px) and (max-width: 640px) {
+@media (min-width: 371px) and (max-width: 640px) {
     .carousel-inner > .item > img,
     .carousel-inner > .item > a > img {
         width: 100%;
@@ -222,7 +222,7 @@ body {
     }
 }
 
-@media (min-width: 0px) and (max-width: 373px) {
+@media (min-width: 0px) and (max-width: 370px) {
     .carousel-inner > .item > img,
     .carousel-inner > .item > a > img {
         width: 100%;
