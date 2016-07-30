@@ -7,7 +7,6 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <title>Bootstrap 3 site</title>
-    <!-- Test comment -->
 </head>
 <body>
     <!--Add navbar-->
@@ -25,6 +24,7 @@
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
+            <!-- TEst comment -->
             <div class="collapse navbar-collapse" id="navbar-brand-centered">
                 <ul class="nav navbar-nav">
                     <li><a href="#">Link</a></li>
@@ -70,6 +70,7 @@
                 <small> <i class="fa fa-clock-o"></i> Last Updated on: <time>Sunday, October 05, 2014</time></small>
             </header>
             <div class="row">
+
                 <div class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
                     <div class="panel panel-default">
                         <div class="panel-heading resume-heading">
@@ -79,35 +80,6 @@
                                         <figure>
                                             <img class="img-circle img-responsive" alt="" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAlYAAAAJGExOWRkNWQwLTJhNTktNDFmMy1iODUzLWI1YTdmODQ0ZWFlOA.jpg">
                                         </figure>
-
-                                        <div class="row">
-                                            <div class="col-xs-12 social-btns">
-
-                                                <a href="http://plus.google.com" class="icon-button google-plus">
-                                                    <i class="icon-google-plus fa fa-google-plus"></i>
-                                                    <span></span>
-                                                </a>
-                                                <a href="http://facebook.com" class="icon-button facebook">
-                                                    <i class="icon-facebook fa fa-facebook"></i>
-                                                    <span></span>
-                                                </a>
-                                                <a href="http://twitter.com/" class="icon-button twitter">
-                                                    <i class="icon-twitter fa fa-twitter"></i>
-                                                    <span></span>
-                                                </a>
-                                                <a href="http://instagram.com" class="icon-button instagram">
-                                                    <i class="fa fa-instagram icon-instagram" aria-hidden="true"></i>
-                                                    <span></span>
-                                                </a>
-
-                                                <a href="http://vk.com" class="icon-button vk">
-                                                    <i class="icon-vk fa fa-vk" aria-hidden="true"></i>
-                                                    <span></span>
-                                                </a>
-
-                                            </div>
-                                        </div>
-
                                     </div>
 
                                     <div class="col-xs-12 col-sm-8">
@@ -118,6 +90,34 @@
                                             <li class="list-group-item"><i class="fa fa-phone"></i> 000-000-0000 </li>
                                             <li class="list-group-item"><i class="fa fa-envelope"></i> john@example.com</li>
                                         </ul>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-xs-12 social-btns">
+
+                                            <a href="http://plus.google.com" class="icon-button google-plus">
+                                                <i class="icon-google-plus fa fa-google-plus"></i>
+                                                <span></span>
+                                            </a>
+                                            <a href="http://facebook.com" class="icon-button facebook">
+                                                <i class="icon-facebook fa fa-facebook"></i>
+                                                <span></span>
+                                            </a>
+                                            <a href="http://twitter.com/" class="icon-button twitter">
+                                                <i class="icon-twitter fa fa-twitter"></i>
+                                                <span></span>
+                                            </a>
+                                            <a href="http://instagram.com" class="icon-button instagram">
+                                                <i class="fa fa-instagram icon-instagram" aria-hidden="true"></i>
+                                                <span></span>
+                                            </a>
+
+                                            <a href="http://vk.com" class="icon-button vk">
+                                                <i class="icon-vk fa fa-vk" aria-hidden="true"></i>
+                                                <span></span>
+                                            </a>
+
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -274,13 +274,118 @@
                                 </tbody>
                             </table>
                         </div>
+
                     </div>
 
                 </div>
             </div>
 
         </div>
+
+
     </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <div class="well well-sm">
+                    <form class="form-horizontal" action="" method="post">
+                        <fieldset>
+                            <legend class="text-center">Contact us</legend>
+
+                            <!-- Name input-->
+                            <div class="form-group">
+                                <label class="col-md-3 control-label" for="name">Name</label>
+                                <div class="col-md-9">
+                                    <input id="name" name="name" type="text" placeholder="Your name" class="form-control">
+                                </div>
+                            </div>
+
+                            <!-- Email input-->
+                            <div class="form-group">
+                                <label class="col-md-3 control-label" for="email">Your E-mail</label>
+                                <div class="col-md-9">
+                                    <input id="email" name="email" type="text" placeholder="Your email" class="form-control">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-md-3 control-label" for="email">Request</label>
+                                <div class="col-md-9">
+                                    <select class="col-md-9 form-control" id="sel1" name="subjects">
+                                        <option value="complain">Complain</option>
+                                        <option value="thank">Say Thanks</option>
+                                        <option value="request">Request Information</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <!-- Message body -->
+                            <div class="form-group">
+                                <label class="col-md-3 control-label" for="message">Your message</label>
+                                <div class="col-md-9">
+                                    <textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
+                                </div>
+                            </div>
+
+                            <!-- Form actions -->
+                            <div class="form-group">
+                                <div class="col-md-12 text-right">
+                                    <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<!-- Personal container
+    <div class="form-wrapper">
+        <form action="#" method="get">
+            Name:<br />
+            <input type="text" name="myName" size="48"><br />
+            Email:<br />
+            <input type="text" name="myMail" size="48"><br />
+            Subject:<br />
+            <select name="subjects">
+                <option value="complain">Complain</option>
+                <option value="thank">Say Thanks</option>
+                <option value="request">Request Information</option>
+            </select><br />
+            Type your message below:<br />
+            <textarea name="message" rows="3" cols="50">
+            </textarea><br />
+            <input type="submit" value="Submit">
+        </form>
+    </div>-->
+
+<!-- Bootstrap container 1
+    <div class="container">
+        <form role="form" action="#">
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" name="fieldName" class="form-control" id="email" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+                <label for="pwd">Password:</label>
+                <input type="password" name="fieldPass" class="form-control" id="pwd" placeholder="Enter password">
+            </div>
+            <div class="checkbox">
+                <label><input type="checkbox" name="fieldCheck"> Remember me</label>
+            </div>
+            <div class="form-group">
+                <label for="comment">Comment:</label>
+                <textarea class="form-control" rows="5" id="comment"></textarea>
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+    </div>-->
+
+
 
     <div class="footer">
 

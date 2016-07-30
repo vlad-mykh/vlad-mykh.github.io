@@ -392,3 +392,15 @@ body {
 .progress-meter > .meter.meter-right > .meter-text {
     text-align: right;
 }
+
+.form-wrapper {
+    width: 100%;
+}
+
+/*
+form {
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-bottom: 30px;
+}*/
